@@ -1,0 +1,114 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins;
+    box-sizing: border-box;
+  }
+  a{
+      text-decoration: none;
+  }
+  ul{
+      list-style: none;
+  }
+  body{
+    margin: 0PX;
+    padding: 0PX;
+    font-family: poppins;
+    background-color: rgba(255, 68, 0, 0.301);
+  }
+  #blog{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+  .blog-heading {
+display:flex;
+justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   
+  }
+  .blog-heading span {
+      color: #00A5EC;
+
+  }
+  .blog-heading h3{
+      font-size:2.4rem;
+      color: #2b2b2b;
+      font-weight:600;
+
+  }
+  .blog-container{
+    display:flex;
+    justify-content: center;
+          align-items: center;
+          margin: 20px 0px;
+          flex-wrap: wrap;
+  }
+  .blog-box{
+      width: 350px;
+      background-color: #D2F8E9;
+      border: 1px solid #ececec;
+      margin:20px;
+  }
+  .block-img{
+      width: 100%;
+      height: auto;
+      padding: 15px 10px 5px 10px;
+
+  }
+  .block-img img{
+      width: 100%;
+      height:auto ;
+      object-fit: cover;
+      object-position: center;
+      
+      padding: 15px 10px 5px 10px;
+     
+   
+  }
+  .blog-text{
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+  }
+  .blog-text span{
+
+    color: black;
+    font-size: 0.9rem;
+  }
+  .blog-text .blog-title{
+      font-size:1.3rem;
+      font-weight:500;
+      color: #665151
+  }
+  .blog-text .blog-title:hover{
+      color: #FFC6B2;
+      font-weight: bolder;
+      font: larger;
+      transition: all ease 0.3s;
+  }
+  .blog-text p{
+      color: #00A5EC;
+      font-size:0.blog-rem;
+      display:-webkit-box;
+       -webkit-line-clamp: 3;
+       -webkit-box-orient: vertical;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       margin: 20px 0 px;
+
+  }
+  .blog-text a{
+      color: black;
+
+  }
+  .blog-text a:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+  }
